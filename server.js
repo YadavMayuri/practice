@@ -203,14 +203,14 @@
 // }
 
 
-// remove  elements
-var array=[3,2,2,3]
+// remove elements
+var array=[0,1,2,2,3,0,4,2]
 var val = 2;
-var bin=[];
+var rem=[];
 var res =[];
 for(var i =0; i<array.length;i++){
     if(array[i]==val){
-        bin.push(array[i]); 
+        rem.push(array[i]); 
     }else{
         res.push(array[i]); 
     }
@@ -218,7 +218,7 @@ for(var i =0; i<array.length;i++){
 }
 console.log(res.length);
 console.log(res);
-
+// console.log(rem)
 
 
 
