@@ -204,20 +204,20 @@
 
 
 // remove elements
-var array=[0,1,2,2,3,0,4,2]
-var val = 2;
-var rem=[];
-var res =[];
-for(var i =0; i<array.length;i++){
-    if(array[i]==val){
-        rem.push(array[i]); 
-    }else{
-        res.push(array[i]); 
-    }
+// var array=[0,1,2,2,3,0,4,2]
+// var val = 2;
+// var rem=[];
+// var res =[];
+// for(var i =0; i<array.length;i++){
+//     if(array[i]==val){
+//         rem.push(array[i]); 
+//     }else{
+//         res.push(array[i]); 
+//     }
 
-}
-console.log(res.length);
-console.log(res);
+// }
+// console.log(res.length);
+// console.log(res);
 // console.log(rem)
 
 
