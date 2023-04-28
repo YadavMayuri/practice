@@ -216,7 +216,7 @@
 //                 newarray.push(arr1[i])
 //             }
 //         }
-      
+
 //     }
 //     console.log(newarray);
 // }
@@ -266,6 +266,127 @@
 
 
 
+// loop questions-------------------------------------------------------------
+
+// 1.
+// for(var i=1; i<=10; i++){
+//     console.log(i);
+// }
+
+
+// 2.
+// for(i=1; i<=20; i++){
+//     if(i%2==0){
+//         console.log(i);
+//     }
+// }
+
+
+// 3.
+// sum=0;
+// for(i=1; i<=100; i++){
+//     sum=sum+i;
+// }
+// console.log(sum);
+
+
+// 4.
+// var num = 3;
+// var multi;
+// for (var i = 1; i <= 10; i++) {
+//     multi = num * i
+//     console.log(multi);
+
+// }
+
+
+// 5.
+// var string= "MAYURI"
+// var rev="";
+// for(i=string.length-1; i>=0; i--){
+//     rev=rev+string[i]
+// }
+// console.log(rev);
+
+
+// array questions-----------------------------------------------
+
+// 1. Write a program that creates an array of 5 integers and then prints each element of the array
+// var array=[1,2,3,4,5]
+// for(var i=0;i<=array.length; i++){
+//     console.log(i);
+// }
+
+
+// 3. Write a program that creates an array of 7 integers and then prints the largest value in the array.
+
+// var array=[1,2,3,4,5,6,7]
+// var large=array[0]
+// for(var i=0; i<array.length; i++){
+//     if(array[i]>large){
+//         large=array[i]
+//     }
+// }
+// console.log(large);
+
+
+
+// 4.Write a program that creates an array of 15 integers and then finds and prints the index of the first occurrence of the value 10 in the array.
+
+// var array = [1, 2, 3, 10, 4, 5, 10, 10, 6, 7, 8, 9, 11, 13, 15]
+// var value = 10;
+// var index = -1
+// for (i = 0; i < array.length; i++) {
+//     if (array[i] === value) {
+//         index = i
+//         break
+//     }
+// }
+// if (index != -i) {
+//     console.log(`The index of the first occurrence of 10 is: ${index}`);
+// } else {
+//     console.log("10 is not found in the array.");
+// }
+
+
+
+// 5. Write a program that creates an array of 20 integers and then calculates and prints the average of all the values in the array
+
+// var array=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+// var len=array.length;
+// var sum=0;
+// var average=0;
+// for(var i=0; i<=array.length; i++){
+//     sum=sum+i;
+
+// }
+// average=sum/len
+// console.log(average);
+
+
+// 6.Write a program that creates an array of 25 integers and then finds and prints the index of the last occurrence of the value 5 in the array.
+
+// var array=[1,2,3,4,5,6,7,,7,5,1,2,5,99,22,44,55,5,11,44,77,88,5,7,8,0,9]
+// var index=-1;
+// value=5;
+
+// for(i=array.length-1; i>=0; i--){
+//     if(array[i]===value){
+//         index=i
+//         break
+//     }
+// }
+// if(index!==-1){
+//     console.log(`index of last occre. of 5 is ${index}`);
+// }else{
+//     console.log('not found 5');
+// }
+
+
+// 7.Write a program that creates an array of 12 integers and then calculates and prints the product of all the elements in the array
+
+var array=[1,2,3,4,5,6,7,8,9,10,11,12]
+for(i)
 
 
 
