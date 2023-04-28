@@ -210,9 +210,9 @@
 // var res =[];
 // for(var i =0; i<array.length;i++){
 //     if(array[i]==val){
-//         rem.push(array[i]); 
+//         rem.push(array[i]);
 //     }else{
-//         res.push(array[i]); 
+//         res.push(array[i]);
 //     }
 
 // }
@@ -222,8 +222,141 @@
 
 
 
+// plus one
+
+// function plusOne(digits) {
+//     var carry = 1;
+
+//     for (var i = digits.length - 1; i >= 0; i--) {
+//         digits[i] += carry;
+//         if (digits[i] > 9) {
+//             digits[i] = 0;
+//             carry = 1;
+//         } else {
+//             carry = 0;
+//             break;
+//         }
+//     }
+
+//     if (carry === 1) digits.unshift(1);
+//     return digits;
+// }
 
 
+// var digits = [1, 2, 3];
+// var result = plusOne(digits);
+// console.log(result); 
+
+
+
+// var array = [4,3,2,1];
+// var str = "";
+// var final = [];
+// var ans, ans1=[];
+
+// for(var i=0;i<array.length;i++){
+//     str += array[i].toString();
+// }
+
+// var num = parseInt(str);
+// num = num + 1;
+
+// var numStr = num.toString();
+
+// for(i=0;i<numStr.length;i++){
+//     final.push(numStr[i]);
+// }
+
+// for(i=0;i<final.length;i++){
+//     ans = parseInt(final[i]);
+//     ans1.push(ans);
+// }
+
+// console.log(ans1);
+
+
+// search insert positions
+
+// var arr = [1, 3, 5, 6];
+// var n = arr.length;
+// var target= 7;
+// function find_index(arr, n, target) {
+
+//     for (var i = 0; i < n; i++)
+
+//         if (arr[i] == target)
+//             return i;
+
+//         else if (arr[i] > target)
+//             return i;
+
+//     return n;
+// }
+// console.log((find_index(arr, n, target)));
+
+
+// nums1 = [1,2,3,0,0,0], nums2 = [2,5,6]
+
+// function merge(nums1, m, nums2, n) {
+//     let i = m - 1; 
+//     let j = n - 1; 
+
+//     for (let k = m + n - 1; k >= 0; k--) {
+//       if (j < 0) break; 
+
+//       if (i >= 0 && nums1[i] > nums2[j]) {
+//         nums1[k] = nums1[i];
+//         i--;
+//       } else {
+//         nums1[k] = nums2[j];
+//         j--;
+//       }
+//     }
+//   }
+
+
+
+
+// var arr1 = [1,2,3,0,0,0];
+// var arr2 = [2,5,6];
+// var mergedArray = [];
+
+// var i = 0;
+// var j = 0;
+
+// for (var k = 0; k < arr1.length + arr2.length; k++) {
+//   if (arr1[i] < arr2[j] || j >= arr2.length) {
+//     mergedArray.push(arr1[i]);
+//     i++;
+//   } else {
+//     mergedArray.push(arr2[j]);
+//     j++;
+//   }
+// }
+
+// console.log(mergedArray);
+
+var arr1 = [1, 2, 3, 0, 0, 0];
+var arr2 = [2, 5, 6];
+var addarray = arr1 + arr2;
+console.log(addarray);
+var nwear = []
+var mergedArray = [];
+var carray = []
+var flag=false;
+
+for (var i = 0; i <= addarray.length; i++) {
+    if (mergedArray[i] == 0) {
+        mergedArray = carray;
+        carray.pop(nwear)
+        flag=true;
+
+    }
+   
+}
+if (flag){
+    console.log(nwear)
+}
 
 
 
