@@ -336,27 +336,49 @@
 
 // console.log(mergedArray);
 
-var arr1 = [1, 2, 3, 0, 0, 0];
-var arr2 = [2, 5, 6];
-var addarray = arr1 + arr2;
-console.log(addarray);
-var nwear = []
-var mergedArray = [];
-var carray = []
-var flag=false;
+// var arr1 = [1, 2, 3, 0, 0, 0];
+// var arr2 = [2, 5, 6];
+// var addarray = arr1 + arr2;
+// console.log(addarray);
+// var nwear = []
+// var mergedArray = [];
+// var carray = []
+// var flag=false;
 
-for (var i = 0; i <= addarray.length; i++) {
-    if (mergedArray[i] == 0) {
-        mergedArray = carray;
-        carray.pop(nwear)
-        flag=true;
+// for (var i = 0; i <= addarray.length; i++) {
+//     if (mergedArray[i] == 0) {
+//         mergedArray = carray;
+//         carray.pop(nwear)
+//         flag=true;
 
-    }
+//     }
    
-}
-if (flag){
-    console.log(nwear)
-}
+// }
+// if (flag){
+//     console.log(nwear)
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
