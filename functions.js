@@ -309,6 +309,7 @@
 // console.log(rev);
 
 
+
 // array questions-----------------------------------------------
 
 // 1. Write a program that creates an array of 5 integers and then prints each element of the array
@@ -330,22 +331,15 @@
 // console.log(large);
 
 
-
 // 4.Write a program that creates an array of 15 integers and then finds and prints the index of the first occurrence of the value 10 in the array.
 
-// var array = [1, 2, 3, 10, 4, 5, 10, 10, 6, 7, 8, 9, 11, 13, 15]
+// var array = [1, 2, 3, 1, 4, 5, 1, 10, 6, 7, 8, 9, 11, 13, 15]
 // var value = 10;
-// var index = -1
-// for (i = 0; i < array.length; i++) {
-//     if (array[i] === value) {
-//         index = i
-//         break
+// for(var i =0; i<array.length; i++){
+//     if(array[i]== value){
+//         console.log(i);
+//         break;
 //     }
-// }
-// if (index != -i) {
-//     console.log(`The index of the first occurrence of 10 is: ${index}`);
-// } else {
-//     console.log("10 is not found in the array.");
 // }
 
 
@@ -367,27 +361,221 @@
 // 6.Write a program that creates an array of 25 integers and then finds and prints the index of the last occurrence of the value 5 in the array.
 
 // var array=[1,2,3,4,5,6,7,,7,5,1,2,5,99,22,44,55,5,11,44,77,88,5,7,8,0,9]
-// var index=-1;
-// value=5;
-
-// for(i=array.length-1; i>=0; i--){
-//     if(array[i]===value){
-//         index=i
-//         break
+// var num =5;
+// for(var i=array.length-1; i>=0; i--){
+//     if(array[i]== num){
+//         console.log(i);
+//         break;
 //     }
 // }
-// if(index!==-1){
-//     console.log(`index of last occre. of 5 is ${index}`);
-// }else{
-//     console.log('not found 5');
-// }
+
 
 
 // 7.Write a program that creates an array of 12 integers and then calculates and prints the product of all the elements in the array
 
-var array=[1,2,3,4,5,6,7,8,9,10,11,12]
-for(i)
+// var array=[1,2,3,4,5,6,7,8,9,10,11,12]
+// var product=1;
+// for(i=0; i<array.length; i++){
+//    product= product * array[i]
+// }
+// console.log(product);
 
+
+// 8.Write a program that creates an array of 8 integers and then finds and prints the smallest value in the array
+
+// var array=[8,6,7,3,1,4,2,5,]
+// var smallest=array[0]
+// for(i=0; i<array.length; i++){
+//     if(array[i]<smallest){
+//         smallest=array[i]
+//     }
+// }
+// console.log(smallest);
+
+
+// 9.Write a program that creates an array of 9 integers and then sorts the array in ascending order. The sorted array should then be printed
+// var arr= [100,22,3,40,5];
+// for(var i =0; i<arr.length; i++){
+//     for(var j =i+1; j<arr.length; j++){
+//         if(arr[i]>arr[j]){
+//             var temp = arr[i];
+//             arr[i] = arr[j];
+//             arr[j]= temp;
+//         }
+//     }
+// }
+// console.log(arr);
+
+
+
+// 10.Write a program that creates an array of 3 floating-point numbers and then calculates and prints the sum of the first and last elements in the array
+// var arr= [1.2, 2.4, 4.8];
+// var sum =0;
+// for(var i = 0; i<arr.length; i++){
+//     sum = arr[0] + arr[arr.length - 1];
+// }
+// console.log(sum);
+
+
+// 11.Write a program that creates an array of 5 strings and then prints each string in reverse order
+// var arr=["gara","shikamaru","kakashi","naruto","akamaru"]
+// for(i=0; i<arr.length; i++){
+//     var str = arr[i];
+//     var rev ="";
+//    for(var j = str.length-1; j>=0; j--){
+//         rev= rev + str[j];
+//    }
+//    console.log(rev);
+
+// }
+
+
+// 12.Write a program that creates an array of 8 integers and then finds and prints the total number of even integers in the array
+// var arr = [1, 2, 3, 4, 5, 6, 7];
+// var count = 0;
+// for (var i = 0; i < arr.length; i++) {
+//     if (arr[i] % 2 == 0) {
+//         count++;
+//     }
+// }
+// console.log(count);
+
+
+// 13.Write a program that creates an array of 10 integers and then replaces all the even numbers with the value 0.
+
+// var array=[1,2,3,4,5,6,7,8,9,10]
+// for(i=0; i<=array.length; i++){
+//     if(array[i]%2==0){
+//         array[i]=0
+//     }
+// }
+// console.log(array);
+
+
+// 14.Q. Write a function that takes two arrays of integers and returns a new array that contains the sum of both arrays combined. For example : arr1 = [1,2,3,4,5,6,7,8,9], arr2 = [4,5,6,7,8,9,1,2,3]. Output = [5,7,9,11,13,15,8,10,12].
+
+// var arr1=[1,2,3,4,5];
+// var arr2=[1,2,3,4,5];
+// var sum =[];
+// for(var i=0; i<arr1.length;i++){
+//    sum[i]=arr1[i]+arr2[i]
+
+// }
+// console.log(sum);
+
+
+// palindrom number-----------------
+
+// var num="racecar";
+// var len=num.length;
+// var flag=false;
+// for(i=0; i<len/2; i++){
+//     // console.log(num[i]);
+//     // console.log(num[len-1-i]);
+//     if(num[i]== num[len-1-i]){
+//         flag = true
+//     }
+    
+// }
+// if(flag == true){
+//     console.log(" palindrom");
+// }else{
+//     console.log("not palindrom");
+// }
+
+
+// var num1=1211;
+// var num = num1.toString();
+// var len=num.length;
+// var flag = false
+// for(i=0; i<len/2; i++){
+//     // console.log(num[i]);
+//     // console.log(num[len-1-i]);
+//     if(num[i]== num[len-1-i]){
+//         flag = true
+//     }
+    
+// }
+// if(flag == true){
+//     console.log("yes");
+// }else{
+//     console.log("no");
+// }
+
+
+// test questions  -------------------
+
+// 1.
+// var array=[34,54,65,23,5,676,32,34]
+// var target=66;
+// var flag=false;
+// for(i=0; i<array.length; i++){
+//     for(j=i+1; j<array.length; j++){
+//         if(array[i] + array[j] == target){
+//             flag=true
+//             console.log(array[i],array[j]);
+//         }
+//     }
+// }
+// if(!flag){
+//     console.log("not found");
+// }
+
+
+// 2.
+// var start=5768
+// var end=78656
+// sum=0;
+// for(var i=start; i<=end; i++){
+//     if(i%2==0){
+//         sum=sum+i;
+//     }
+// }
+// console.log(sum);
+
+
+// 3.
+// var num=19;
+// var array=[3,5,33,23,56,19,,77,89]
+// var index=0
+// for(i=0; i<array.length; i++){
+//     if(array[i]==num){
+//         index=i
+//     }
+// }
+// console.log(index);
+
+
+// 4.
+// var array=[2,4,5,6,7,8,9]
+// var object={};
+// for(i=0; i<array.length; i++){
+//     object[i]=array[i]
+// }
+// console.log(object);
+
+// var arr=[12,24,3,88,55,0]
+// var newArray=[]
+// for(var i =0; i<arr.length; i++){
+//     for(var j=i+1; j<arr.length; j++){
+//         if(arr[i]<arr[j]){
+//             var temp = arr[i];
+//             arr[i] = arr[j];
+//             arr[j]= temp;
+//         }
+//     }
+//     newArray.push(arr[i])
+// }
+// console.log(newArray);
+
+// var arr=[1,3,4,0,6,3,3]
+// var target = 3
+// for(var i=arr.length-1; i>=0; i--){
+//     if(arr[i]== target){
+//         console.log(i);
+//         break;
+//     }
+// }
 
 
 
