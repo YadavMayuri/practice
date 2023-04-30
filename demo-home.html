@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="">Home</a>
+        <a href="./demo-reg.html" id="switch">Login</a>
+        <a href="">Contact</a>
+    </div>
+
+
+
+
+    <script>
+        window.onload = function () {
+            // alert("working")
+            var currentUser2 = JSON.parse(localStorage.getItem("currentUser2"))
+            if (!!currentUser2) {
+                var divfromhtml1 = document.getElementById("switch")
+                var name2= `<h1>${currentUser2.userName}</h1>`
+                divfromhtml1.innerHTML=name2
+            } else {
+                alert("current user is absent")
+            }
+
+        }
+    </script>
+
+</body>
+
+</html>
