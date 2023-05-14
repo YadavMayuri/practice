@@ -81,11 +81,11 @@
 //         return "false"
 //     }
 // }
-// console.log(checknum(2)); 
+// console.log(checknum(3)); 
 
 
-// 8.
-// var array=[-3,-4,-400]
+// 8.Write a function that takes an array of numbers as an argument and returns the smallest positive number in the array. If there are no positive numbers in the array, return -1.
+// var array=[4,3,4,400,7]
 // function smnum(array){
 //     for(var i=0; i<=array.length; i++){
 //         if(array[i]>0){
@@ -261,8 +261,8 @@
 //     return result;
 //   }
 
-// const result = cumulativeSum(arr);
-// console.log(result);
+// const result1 = cumulativeSum(arr);
+// console.log(result1);
 
 
 
@@ -300,8 +300,8 @@
 // }
 
 
-// 5.
-// var string= "MAYURI"
+// 5. reverse string
+// var string= "name"
 // var rev="";
 // for(i=string.length-1; i>=0; i--){
 //     rev=rev+string[i]
@@ -346,12 +346,12 @@
 
 // 5. Write a program that creates an array of 20 integers and then calculates and prints the average of all the values in the array
 
-// var array=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+// var array=[1,2,3,4,5]
 // var len=array.length;
 // var sum=0;
 // var average=0;
-// for(var i=0; i<=array.length; i++){
-//     sum=sum+i;
+// for(var i=0; i<array.length; i++){
+//     sum=sum+array[i];
 
 // }
 // average=sum/len
@@ -417,13 +417,14 @@
 // console.log(sum);
 
 
-// 11.Write a program that creates an array of 5 strings and then prints each string in reverse order
+// // 11.Write a program that creates an array of 5 strings and then prints each string in reverse order
 // var arr=["gara","shikamaru","kakashi","naruto","akamaru"]
 // for(i=0; i<arr.length; i++){
 //     var str = arr[i];
 //     var rev ="";
 //    for(var j = str.length-1; j>=0; j--){
 //         rev= rev + str[j];
+
 //    }
 //    console.log(rev);
 

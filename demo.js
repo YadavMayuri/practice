@@ -29,7 +29,7 @@ function register(event) {
                     Ls.push(userdata2)
                     localStorage.setItem("practice2-users", JSON.stringify(Ls))
                     alert("registration successfull")
-                    // window.location.href = "./demo-login.html"
+                    window.location.href = "./demo-login.html"
                     document.getElementById("Name").value = ""
                     document.getElementById("Email").value = ""
                     document.getElementById("Password").value = ""
